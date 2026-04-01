@@ -1,20 +1,19 @@
 # 📖 Educations
-- *20XX.09 - 20XX.06 (Expected)*, Ph.D. in [Your Major], [Your Institute / Lab], [Your University], [City], [Country].
-  - Supervisor: [Supervisor Name]; Co-supervisor: [Co-supervisor Name]
-- *20XX.09 - 20XX.06*, B.S. / M.S. in [Your Major], [Your College], [Your University], [City], [Country].
-
+- *2024.09 - 2027.06 (Expected)*, M.S. in Control Science and Engineering, University of Science and Technology of China, Hefei, China.
+  - Advisor: Prof. Liang Wang
+  - Training institute: State Key Laboratory of Multimodal Artificial Intelligence Systems, CASIA
+- *2020.09 - 2024.06*, B.Eng. in Software Engineering, Beijing Institute of Technology, Beijing, China.
+  - GPA Rank: Top 10%
 
 # 🎖 Honors and Awards
-- *20XX.XX* 🔥🔥 **[Major Award Name]**, [Awarding Body]. [[Certificate 📜]](../files/certificate.pdf)
-- *20XX.XX* 🔥 **[Award Name]**, [Awarding Body / Conference].
-- *20XX.XX* [Award Name], [Awarding Body].
-- *20XX.XX* [Scholarship Name], [University], [Ranking / Percentage].
-
+- *2023.11* **Second Prize**, The 5th IKCEST “Belt and Road” International Big Data Competition and the 9th Baidu & Xi'an Jiaotong University Big Data Competition.
+- *2022.05* **First Prize**, The 3rd Beijing College Student Physics Academic Competition.
+- *2021.06* **Second Prize**, China Undergraduate Physics Tournament (North China Region).
+- *2021.05* **Second Prize**, The 2nd Beijing College Student Physics Academic Competition.
+- *2021 - 2024* **Academic Scholarship**, Beijing Institute of Technology (First Class ×1, Second Class ×3).
 
 # 📚 Academic Services
-- Reviewer: [Conference/Journal Name] 20XX, [Conference/Journal Name] 20XX
-- Sub-reviewer: [Conference/Journal Name] 20XX
-
+- Reviewer / sub-reviewer information will be updated soon.
 
 # 💬 Invited Talks
-- *20XX.XX*, "[Talk Title]", [Event / Organization], [City], [Country]. \| [[Slides]](https://github.com/) \| [[Video]](https://github.com/)
+- Invited talks will be updated soon.

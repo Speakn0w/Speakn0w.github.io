@@ -1,10 +1,9 @@
-Hi! I'm **[Your Name]** ([Chinese Name]), a [Year]-year Ph.D. student / Master's student / Researcher at [Your Lab / Institute], [Your University], supervised by Prof. [Supervisor Name].
+Hi! I'm **Jiajun Zhang** (张家骏), a master's student in **Control Science and Engineering** at the **University of Science and Technology of China (USTC)**, advised by Prof. **Liang Wang** at the **State Key Laboratory of Multimodal Artificial Intelligence Systems, CASIA**.
 
-<!-- Replace the paragraph below with your own introduction -->
-My research interests lie in **Large Language Models (LLMs)**, particularly in areas of **Code Intelligence** and **Information Retrieval / Graph-based Reasoning**. I am passionate about building reliable and efficient AI systems that bridge the gap between natural language understanding and structured knowledge.
+My research focuses on **Large Language Models**, especially **code intelligence**, **software engineering agents**, **code generation**, and **retrieval-augmented / graph-enhanced learning systems**. I am particularly interested in building practical and reliable AI systems that can assist real-world coding, reasoning, and knowledge-intensive tasks.
 
-I received my [Bachelor's / Master's] degree in [Major] from [Your Undergraduate University]. 
+Before joining USTC, I received my B.Eng. in **Software Engineering** from the **Beijing Institute of Technology**.
 
-Currently, I am an intern at the **Qwen Team**, [Alibaba / DAMO Academy], working on LLM engineering, technical reports, and open-source contributions.
+Currently, I am a research intern at the **Qwen Team**, **Alibaba Group / DAMO Academy**, where I work on code LLM training, data synthesis, benchmark construction, evaluation, and training infrastructure for the Qwen-Coder series.
 
-Feel free to reach out for collaboration or discussion: **[your.email@domain.com]**
+Feel free to reach out for research collaboration or discussion: **zhangjiajun519@gmail.com**
