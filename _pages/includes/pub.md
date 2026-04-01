@@ -1,32 +1,6 @@
 # 📝 Publications
 
-## 🖥️ Code Intelligence
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/paper_plotcraft.png' alt="paper image" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation**](https://arxiv.org/abs/2603.25804) \
-**Jiajun Zhang**, Yuying Li, Zhixun Li, Xingyu Guo, Jingzhuo Wu, Leqi Zheng, Yiran Yang, Jianke Zhang, Qingbin Li, Shannan Yan, Zhetong Li, Changguo Jia, Junfei Wu, Zilei Wang, Qiang Liu, Liang Wang
-
-- **TL;DR**: We introduce RealChart2Code, a large-scale benchmark with more than 2,800 real-data chart generation tasks that evaluates both direct chart synthesis and multi-turn code refinement for complex visualizations.
-- **Overview**: This work studies chart-to-code generation under realistic conditions, where models must reproduce intricate multi-panel visualizations from authentic datasets instead of simplified synthetic chart templates. The benchmark emphasizes analytical intent, real data grounding, and iterative refinement in conversational settings.
-- **Highlights**: Our evaluation of 14 leading VLMs reveals a large gap between current capabilities and real-world visualization demands, especially on complex plot structures, raw-data-driven charting, and multi-turn correction scenarios.
-
-[![arXiv](https://img.shields.io/badge/arXiv-2603.25804-b31b1b.svg)](https://arxiv.org/abs/2603.25804)
-
-<details><summary>📖 BibTeX</summary>
-<pre>
-@article{zhang2026realchart2code,
-  title     = {RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation},
-  author    = {Jiajun Zhang and Yuying Li and Zhixun Li and Xingyu Guo and Jingzhuo Wu and Leqi Zheng and Yiran Yang and Jianke Zhang and Qingbin Li and Shannan Yan and Zhetong Li and Changguo Jia and Junfei Wu and Zilei Wang and Qiang Liu and Liang Wang},
-  journal   = {arXiv preprint arXiv:2603.25804},
-  year      = {2026}
-}
-</pre>
-</details>
-
-</div>
-</div>
+## 🤖 Coding Agents & Code Intelligence
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/paper_c3bench.png' alt="paper image" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -80,6 +54,53 @@
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/qwen_logo.png' alt="paper image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Scaling Agentic Verifier for Competitive Coding**](https://arxiv.org/abs/2602.04254) \\
+Zeyao Ma, Jing Zhang, Xiaokang Zhang, Jiaxi Yang, Zongmeng Zhang, **Jiajun Zhang**, Yuheng Jing, Lei Zhang, Hao Zheng, Wenting Zhao, Junyang Lin, Binyuan Hui
+
+- **TL;DR**: We study how to scale verifier-style agents for competitive coding and improve reliable solution selection through stronger execution-aware and agentic verification pipelines.
+- **Overview**: Competitive coding is a demanding setting for LLM systems because correctness must be established under hidden tests rather than surface-level plausibility. This work focuses on verifier scaling, aiming to build stronger systems for candidate filtering, validation, and test-driven reasoning.
+- **Highlights**: The paper is closely related to coding-agent training and evaluation, with practical implications for high-reliability code generation and automated programming competitions.
+
+[![arXiv](https://img.shields.io/badge/arXiv-2602.04254-b31b1b.svg)](https://arxiv.org/abs/2602.04254)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2024</div><img src='images/paper_sweflow.png' alt="paper image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**ExecRepoBench: Multi-level Executable Code Completion Evaluation**](https://arxiv.org/abs/2412.11990) \\
+Jian Yang, **Jiajun Zhang**, Jiaxi Yang, Ke Jin, Lei Zhang, Qiyao Peng, Ken Deng, Yibo Miao, Tianyu Liu, Zeyu Cui, Binyuan Hui, Junyang Lin
+
+- **TL;DR**: We introduce ExecRepoBench, an executable benchmark for repository-level code completion that evaluates models under more realistic completion settings than function-level static benchmarks.
+- **Overview**: Repository-scale code completion requires models to reason over project context, dependencies, and executable behavior. This benchmark emphasizes multi-level evaluation and executable validation, making it more faithful to real developer usage.
+- **Highlights**: The benchmark provides a stronger testbed for studying practical code completion systems, especially those designed for IDE workflows and repository-aware coding assistants.
+
+[![arXiv](https://img.shields.io/badge/arXiv-2412.11990-b31b1b.svg)](https://arxiv.org/abs/2412.11990)
+
+</div>
+</div>
+
+## 📊 Visualization & Chart Generation
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/paper_plotcraft.png' alt="paper image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation**](https://arxiv.org/abs/2603.25804) \\
+**Jiajun Zhang**, Yuying Li, Zhixun Li, Xingyu Guo, Jingzhuo Wu, Leqi Zheng, Yiran Yang, Jianke Zhang, Qingbin Li, Shannan Yan, Zhetong Li, Changguo Jia, Junfei Wu, Zilei Wang, Qiang Liu, Liang Wang
+
+- **TL;DR**: We introduce RealChart2Code, a large-scale benchmark with more than 2,800 real-data chart generation tasks that evaluates both direct chart synthesis and multi-turn code refinement for complex visualizations.
+- **Overview**: This work studies chart-to-code generation under realistic conditions, where models must reproduce intricate multi-panel visualizations from authentic datasets instead of simplified synthetic chart templates. The benchmark emphasizes analytical intent, real data grounding, and iterative refinement in conversational settings.
+- **Highlights**: Our evaluation of 14 leading VLMs reveals a large gap between current capabilities and real-world visualization demands, especially on complex plot structures, raw-data-driven charting, and multi-turn correction scenarios.
+
+[![arXiv](https://img.shields.io/badge/arXiv-2603.25804-b31b1b.svg)](https://arxiv.org/abs/2603.25804)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/paper_plotcraft.png' alt="paper image" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -93,19 +114,10 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2511.00010-b31b1b.svg)](https://arxiv.org/abs/2511.00010)
 [![](https://img.shields.io/github/stars/Speakn0w/PlotCraft-Benchmark?style=social&label=Repo)](https://github.com/Speakn0w/PlotCraft-Benchmark)
 
-<details><summary>📖 BibTeX</summary>
-<pre>
-@article{zhang2025plotcraft,
-  title     = {PlotCraft: Pushing the Limits of LLMs for Complex and Interactive Data Visualization},
-  author    = {Jiajun Zhang and Jianke Zhang and Zeyu Cui and Jiaxi Yang and Lei Zhang and Binyuan Hui and Qiang Liu and Zilei Wang and Liang Wang and Junyang Lin},
-  journal   = {arXiv preprint arXiv:2511.00010},
-  year      = {2025}
-}
-</pre>
-</details>
+</div>
+</div>
 
-</div>
-</div>
+## 🛠️ Software Engineering & Infrastructure
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/paper_sweflow.png' alt="paper image" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -119,21 +131,25 @@ Lei Zhang, Jiaxi Yang, Min Yang, Jian Yang, Mouxiang Chen, **Jiajun Zhang**, Zey
 
 [![arXiv](https://img.shields.io/badge/arXiv-2506.09003-b31b1b.svg)](https://arxiv.org/abs/2506.09003)
 
-<details><summary>📖 BibTeX</summary>
-<pre>
-@inproceedings{zhang2025sweflow,
-  title     = {SWE-Flow: Synthesizing Software Engineering Data in a Test-Driven Manner},
-  author    = {Lei Zhang and Jiaxi Yang and Min Yang and Jian Yang and Mouxiang Chen and Jiajun Zhang and Zeyu Cui and Binyuan Hui and Junyang Lin},
-  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
-  year      = {2025}
-}
-</pre>
-</details>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/qwen_logo.png' alt="paper image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**MegaFlow: Large-Scale Distributed Orchestration System for the Agentic Era**](https://arxiv.org/abs/2601.07526) \\
+Lei Zhang, Mouxiang Chen, Ruisheng Cao, Jiawei Chen, Fan Zhou, Yiheng Xu, Jiaxi Yang, Liang Chen, Changwei Luo, Kai Zhang, Fan Yan, KaShun Shum, **Jiajun Zhang**, Zeyu Cui, Hu Feng, Junyang Lin, Binyuan Hui, Min Yang
+
+- **TL;DR**: We present MegaFlow, a large-scale distributed orchestration system designed for the agentic era, supporting scalable multi-agent execution, coordination, and workflow management.
+- **Overview**: As coding agents grow more capable, their supporting infrastructure becomes a central bottleneck. MegaFlow addresses this systems challenge by providing orchestration mechanisms for large-scale agent execution and task coordination.
+- **Highlights**: The work complements model-centric research by focusing on the infrastructure layer required to run agentic systems at scale in realistic engineering environments.
+
+[![arXiv](https://img.shields.io/badge/arXiv-2601.07526-b31b1b.svg)](https://arxiv.org/abs/2601.07526)
 
 </div>
 </div>
 
-## 🔍 Search and Graph
+## 🔍 Retrieval, Recommendation & Information Systems
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2026</div><img src='images/paper_citation.png' alt="paper image" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -146,17 +162,6 @@ Leqi Zheng, **Jiajun Zhang**, Canzhi Chen, Chaokun Wang, Hongwei Li, Yuying Li, 
 - **Highlights**: The study provides both a benchmark and strong baselines for evaluating faithfulness in scholarly assistance, making it relevant to academic search, scientific writing copilots, and evidence-grounded long-form generation.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2601.14949-b31b1b.svg)](https://arxiv.org/abs/2601.14949)
-
-<details><summary>📖 BibTeX</summary>
-<pre>
-@article{zheng2026citation,
-  title     = {What Should I Cite? A RAG Benchmark for Academic Citation Prediction},
-  author    = {Leqi Zheng and Jiajun Zhang and Canzhi Chen and Ziyang Liu},
-  journal   = {arXiv preprint arXiv:2601.14949},
-  year      = {2026}
-}
-</pre>
-</details>
 
 </div>
 </div>
@@ -171,17 +176,6 @@ Leqi Zheng, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, **Jiajun Zhang**, Z
 - **Overview**: Most recommendation models primarily exploit positive user-item interactions, while negative signals are either discarded or used only superficially. This paper argues that negative feedback carries essential structural information and designs a signed graph contrastive framework to model it explicitly.
 - **Highlights**: The result is a general recommendation approach that improves representation quality and ranking effectiveness, while also providing a cleaner perspective on how contrastive learning should be adapted when user preferences include both attraction and rejection signals.
 
-<details><summary>📖 BibTeX</summary>
-<pre>
-@inproceedings{zheng2025sdcgcl,
-  title     = {Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation},
-  author    = {Leqi Zheng and Chaokun Wang and Zixin Song and Cheng Wu and Shannan Yan and Jiajun Zhang and Ziyang Liu},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-  year      = {2025}
-}
-</pre>
-</details>
-
 </div>
 </div>
 
@@ -195,19 +189,64 @@ Leqi Zheng, Chaokun Wang, Canzhi Chen, **Jiajun Zhang**, Cheng Wu, Zixin Song, S
 - **Overview**: This work investigates how LLMs can serve as more than text generators in recommender systems. Instead, they are used as high-level reasoning modules that enrich graph-based recommendation pipelines through data activation, candidate refinement, and reranking.
 - **Highlights**: The paper connects LLM reasoning with graph representation learning in a practical recommendation setting, showing how language priors can complement sparse interaction graphs and improve downstream recommendation quality.
 
-<details><summary>📖 BibTeX</summary>
-<pre>
-@inproceedings{zheng2025lagcl4rec,
-  title     = {LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation},
-  author    = {Leqi Zheng and Chaokun Wang and Canzhi Chen and Jiajun Zhang and Cheng Wu and Zixin Song and Shannan Yan and Ziyang Liu and Hongwei Li},
-  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2025},
-  year      = {2025}
-}
-</pre>
-</details>
+</div>
+</div>
+
+## 🌐 Multimodal, Vision & Agents
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/paper_plotcraft.png' alt="paper image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models**](https://openreview.net/) \\
+Jianke Zhang, Xiaoyu Chen, Qiuyue Wang, Mingsheng Li, Yanjiang Guo, Yucheng Hu, **Jiajun Zhang**, Shuai Bai, Junyang Lin, Jianyu Chen
+
+- **TL;DR**: We revisit the role of vision-language models in vision-language-action systems and study how VLM components affect embodied policy learning.
+- **Overview**: This work connects multimodal representation learning with downstream action-oriented systems, asking how much modern VLMs can contribute when integrated into VLA pipelines.
+- **Highlights**: The paper is relevant to embodied intelligence, multimodal reasoning, and the transfer of VLM capabilities into agentic decision-making settings.
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/paper_plotcraft.png' alt="paper image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction**](https://openaccess.thecvf.com/) \\
+Shannan Yan, Leqi Zheng, Keyu Lv, Jingchen Ni, Hongyang Wei, **Jiajun Zhang**, Guangting Wang, Jing Lyu, Chun Yuan, Fengyun Rao
+
+- **TL;DR**: We study cross-view object correspondence through cycle-consistent mask prediction to improve robust geometric and semantic matching across views.
+- **Overview**: The paper targets a core vision problem: aligning objects seen from different viewpoints with stronger consistency constraints.
+- **Highlights**: The method combines structural reasoning and mask-level correspondence learning to improve cross-view matching quality.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/paper_citation.png' alt="paper image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**SAMAS: A Spectrum-Guided Multi-Agent System for Achieving Style Fidelity in Literary Translation**](https://ieeexplore.ieee.org/) \\
+Jingzhuo Wu, **Jiajun Zhang**, Keyan Jin, Dehua Ma, Junbo Wang
+
+- **TL;DR**: We propose SAMAS, a multi-agent system for literary translation that explicitly balances semantic faithfulness and stylistic fidelity.
+- **Overview**: Literary translation requires more than literal correctness; it also demands style preservation. SAMAS uses a spectrum-guided multi-agent formulation to coordinate translation quality along these dimensions.
+- **Highlights**: The work brings multi-agent methodology into translation and style-sensitive generation, extending LLM systems beyond coding and retrieval tasks.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/paper_citation.png' alt="paper image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents**](#) \\
+Shannan Yan, Jingchen Ni, Leqi Zheng, **Jiajun Zhang**, Peng Wu, Deying Yin, Jing Lyu, Chun Yuan, Fengyun Rao
+
+- **TL;DR**: We study adaptive user-centric memory for dialogue agents to support longer-horizon personalization and contextual coherence.
+- **Overview**: Long-horizon dialogue systems require memory mechanisms that can track user preferences and conversational state over time without drifting or overfitting.
+- **Highlights**: This work explores memory design for agentic dialogue systems, a direction that complements your broader interest in practical and reliable LLM agents.
+
+</div>
+</div>
+
+## 📰 Information Integrity
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIKM 2024</div><img src='images/paper_fade.png' alt="paper image" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -221,21 +260,28 @@ Leqi Zheng, Chaokun Wang, Canzhi Chen, **Jiajun Zhang**, Cheng Wu, Zixin Song, S
 
 [![arXiv](https://img.shields.io/badge/arXiv-2403.00037-b31b1b.svg)](https://arxiv.org/abs/2403.00037)
 
-<details><summary>📖 BibTeX</summary>
-<pre>
-@inproceedings{zhang2024fade,
-  title     = {Evolving to the Future: Unseen Event Adaptive Fake News Detection on Social Media},
-  author    = {Jiajun Zhang and Zhixun Li and Qiang Liu and Shu Wu and Liang Wang},
-  booktitle = {Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM)},
-  year      = {2024}
-}
-</pre>
-</details>
-
 </div>
 </div>
 
 ## 📊 Technical Reports & Surveys
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/qwen_logo.png' alt="paper image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Qwen3-Coder-Next Technical Report**](https://arxiv.org/abs/2603.00729) \\
+Qwen Team, with **Jiajun Zhang (Speakn0w)** as a major contributor
+
+- **TL;DR**: We present Qwen3-Coder-Next, an open-weight coding-agent model trained with large-scale verifiable coding tasks, executable environments, mid-training, and reinforcement learning.
+- **Overview**: This report describes the data, training pipeline, and agent-oriented evaluation behind Qwen3-Coder-Next, focusing on strong real-world coding performance and scalable open release.
+- **Highlights**: As a major contributor under the handle **Speakn0w**, I contributed to the report release, open-source repository, and model ecosystem around this launch.
+
+[![arXiv](https://img.shields.io/badge/arXiv-2603.00729-b31b1b.svg)](https://arxiv.org/abs/2603.00729)
+[![](https://img.shields.io/github/stars/QwenLM/Qwen3-Coder?style=social&label=Repo)](https://github.com/QwenLM/Qwen3-Coder/)
+[![Model](https://img.shields.io/badge/🤗-Qwen3--Coder--Next-yellow)](https://huggingface.co/Qwen/Qwen3-Coder-Next)
+[![Blog](https://img.shields.io/badge/Blog-Qwen3--Coder--Next-blue)](https://qwen.ai/blog?id=qwen3-coder-next)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/paper_ci_survey.png' alt="paper image" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -248,17 +294,6 @@ Jian Yang, ..., **Jiajun Zhang**, ..., and 70+ authors
 - **Highlights**: It is designed not only as a literature review, but also as a practical guide for researchers and practitioners who want to understand how modern code LLM systems are built, evaluated, and deployed.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2511.18538-b31b1b.svg)](https://arxiv.org/abs/2511.18538)
-
-<details><summary>📖 BibTeX</summary>
-<pre>
-@article{yang2025codeintelligence,
-  title     = {From Code Foundation Models to Agents and Applications: A Comprehensive Survey and Practical Guide to Code Intelligence},
-  author    = {Jian Yang and Xianglong Liu and Weifeng Lv and others},
-  journal   = {arXiv preprint arXiv:2511.18538},
-  year      = {2025}
-}
-</pre>
-</details>
 
 </div>
 </div>
@@ -274,17 +309,6 @@ Binyuan Hui\*, Jian Yang\*, Zeyu Cui, Jiaxi Yang, Dayiheng Liu, Lei Zhang, Tiany
 - **Highlights**: The report demonstrates how large-scale code pretraining plus strong evaluation discipline can produce open coding models that are competitive across generation, completion, reasoning, and repair.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2409.12186-b31b1b.svg)](https://arxiv.org/abs/2409.12186)
-
-<details><summary>📖 BibTeX</summary>
-<pre>
-@article{hui2024qwen25coder,
-  title     = {Qwen2.5-Coder Technical Report},
-  author    = {Binyuan Hui and Jian Yang and Zeyu Cui and Jiaxi Yang and Dayiheng Liu and Lei Zhang and Tianyu Liu and Jiajun Zhang and Bowen Yu and Keming Lu and Kai Dang and Yang Fan and Yichang Zhang and An Yang and Rui Men and Fei Huang and Bo Zheng and Yibo Miao and Shanghaoran Quan and Yunlong Feng and Xingzhang Ren and Xuancheng Ren and Jingren Zhou and Junyang Lin},
-  journal   = {arXiv preprint arXiv:2409.12186},
-  year      = {2024}
-}
-</pre>
-</details>
 
 </div>
 </div>
