@@ -1,5 +1,7 @@
 # 🔥 News
 
+- *2026.03*: 📄 Released the preprint [RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation](https://arxiv.org/abs/2603.25804).
+- *2026.03*: 🚀 Contributed as a major contributor (**Speakn0w**) to the release of [Qwen3-Coder-Next Technical Report](https://arxiv.org/abs/2603.00729), the [Hugging Face model](https://huggingface.co/Qwen/Qwen3-Coder-Next), the [official blog](https://qwen.ai/blog?id=qwen3-coder-next), and the [Qwen3-Coder repository](https://github.com/QwenLM/Qwen3-Coder/).
 - *2026.01*: 🎉 One paper accepted to **WWW 2026**: [What Should I Cite? A RAG Benchmark for Academic Citation Prediction](https://arxiv.org/abs/2601.14949).
 - *2026.01*: 📄 Released two new preprints: [Evaluating and Achieving Controllable Code Completion in Code LLM](https://arxiv.org/abs/2601.15879) and [From Completion to Editing: Unlocking Context-Aware Code Infilling via Search-and-Replace Instruction Tuning](https://arxiv.org/abs/2601.13384).
 - *2025.11*: 📄 Released the survey preprint [From Code Foundation Models to Agents and Applications: A Comprehensive Survey and Practical Guide to Code Intelligence](https://arxiv.org/abs/2511.18538).

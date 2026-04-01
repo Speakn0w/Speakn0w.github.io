@@ -2,6 +2,32 @@
 
 ## 🖥️ Code Intelligence
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/paper_plotcraft.png' alt="paper image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation**](https://arxiv.org/abs/2603.25804) \
+**Jiajun Zhang**, Yuying Li, Zhixun Li, Xingyu Guo, Jingzhuo Wu, Leqi Zheng, Yiran Yang, Jianke Zhang, Qingbin Li, Shannan Yan, Zhetong Li, Changguo Jia, Junfei Wu, Zilei Wang, Qiang Liu, Liang Wang
+
+- **TL;DR**: We introduce RealChart2Code, a large-scale benchmark with more than 2,800 real-data chart generation tasks that evaluates both direct chart synthesis and multi-turn code refinement for complex visualizations.
+- **Overview**: This work studies chart-to-code generation under realistic conditions, where models must reproduce intricate multi-panel visualizations from authentic datasets instead of simplified synthetic chart templates. The benchmark emphasizes analytical intent, real data grounding, and iterative refinement in conversational settings.
+- **Highlights**: Our evaluation of 14 leading VLMs reveals a large gap between current capabilities and real-world visualization demands, especially on complex plot structures, raw-data-driven charting, and multi-turn correction scenarios.
+
+[![arXiv](https://img.shields.io/badge/arXiv-2603.25804-b31b1b.svg)](https://arxiv.org/abs/2603.25804)
+
+<details><summary>📖 BibTeX</summary>
+<pre>
+@article{zhang2026realchart2code,
+  title     = {RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation},
+  author    = {Jiajun Zhang and Yuying Li and Zhixun Li and Xingyu Guo and Jingzhuo Wu and Leqi Zheng and Yiran Yang and Jianke Zhang and Qingbin Li and Shannan Yan and Zhetong Li and Changguo Jia and Junfei Wu and Zilei Wang and Qiang Liu and Liang Wang},
+  journal   = {arXiv preprint arXiv:2603.25804},
+  year      = {2026}
+}
+</pre>
+</details>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/paper_c3bench.png' alt="paper image" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
