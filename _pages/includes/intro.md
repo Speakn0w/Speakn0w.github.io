@@ -4,6 +4,6 @@ My research focuses on **Large Language Models**, especially **code intelligence
 
 Before joining USTC, I received my B.Eng. in **Software Engineering** from the **Beijing Institute of Technology**.
 
-Currently, I am a research intern at the **Qwen Team**, **Alibaba Group / DAMO Academy**, where I work on code LLM training, data synthesis, benchmark construction, evaluation, and training infrastructure for the Qwen-Coder series.
+Currently, I am a research intern at the **Qwen Team**, **Alibaba Group**, where I work on code LLM training, data synthesis, benchmark construction, evaluation, and training infrastructure for the Qwen-Coder series.
 
 Feel free to reach out for research collaboration or discussion: **zhangjiajun519@gmail.com**
