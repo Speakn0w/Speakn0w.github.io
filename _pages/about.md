@@ -21,6 +21,8 @@ redirect_from:
 
 {% include_relative includes/news.md %}
 
+{% include_relative includes/stats.md %}
+
 {% include_relative includes/pub.md %}
 
 {% include_relative includes/engineering.md %}

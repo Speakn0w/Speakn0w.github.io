@@ -1,5 +1,7 @@
 # 📝 Publications
 
+**Note**: I attach repo / dataset / model / blog links below only when a public artifact can be confirmed reliably.
+
 ## 🤖 Coding Agents & Code Intelligence
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/paper_c3bench.png' alt="paper image" width="100%"></div></div>
@@ -80,6 +82,7 @@ Jian Yang, **Jiajun Zhang**, Jiaxi Yang, Ke Jin, Lei Zhang, Qiyao Peng, Ken Deng
 - **Highlights**: The benchmark provides a stronger testbed for studying practical code completion systems, especially those designed for IDE workflows and repository-aware coding assistants.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2412.11990-b31b1b.svg)](https://arxiv.org/abs/2412.11990)
+[![](https://img.shields.io/badge/Type-Benchmark-informational)](#)
 
 </div>
 </div>
@@ -97,6 +100,7 @@ Jian Yang, **Jiajun Zhang**, Jiaxi Yang, Ke Jin, Lei Zhang, Qiyao Peng, Ken Deng
 - **Highlights**: Our evaluation of 14 leading VLMs reveals a large gap between current capabilities and real-world visualization demands, especially on complex plot structures, raw-data-driven charting, and multi-turn correction scenarios.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.25804-b31b1b.svg)](https://arxiv.org/abs/2603.25804)
+[![](https://img.shields.io/badge/Type-Benchmark-informational)](#)
 
 </div>
 </div>
@@ -130,6 +134,7 @@ Lei Zhang, Jiaxi Yang, Min Yang, Jian Yang, Mouxiang Chen, **Jiajun Zhang**, Zey
 - **Highlights**: The framework is especially valuable for training coding agents and SWE-oriented models, because it captures the sequential structure of debugging, implementation, and verification rather than only final code outputs.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2506.09003-b31b1b.svg)](https://arxiv.org/abs/2506.09003)
+[![](https://img.shields.io/badge/Type-Data%20Synthesis-informational)](#)
 
 </div>
 </div>
@@ -294,6 +299,7 @@ Jian Yang, ..., **Jiajun Zhang**, ..., and 70+ authors
 - **Highlights**: It is designed not only as a literature review, but also as a practical guide for researchers and practitioners who want to understand how modern code LLM systems are built, evaluated, and deployed.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2511.18538-b31b1b.svg)](https://arxiv.org/abs/2511.18538)
+[![](https://img.shields.io/badge/Type-Survey-informational)](#)
 
 </div>
 </div>
@@ -309,6 +315,7 @@ Binyuan Hui\*, Jian Yang\*, Zeyu Cui, Jiaxi Yang, Dayiheng Liu, Lei Zhang, Tiany
 - **Highlights**: The report demonstrates how large-scale code pretraining plus strong evaluation discipline can produce open coding models that are competitive across generation, completion, reasoning, and repair.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2409.12186-b31b1b.svg)](https://arxiv.org/abs/2409.12186)
+[![](https://img.shields.io/badge/Type-Technical%20Report-informational)](#)
 
 </div>
 </div>
